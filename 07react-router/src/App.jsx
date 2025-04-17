@@ -1,12 +1,13 @@
 import React from 'react'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
     < >
     
-    <div className='bg-black text-white h-screen'>
-      <h1 className='text-9xl font-extrabold font-stretch-75%'>hello ji </h1>
-    </div>
+<Header/>
+<Footer/>
     </>
   )
 }
