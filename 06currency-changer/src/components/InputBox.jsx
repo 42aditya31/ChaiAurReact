@@ -2,6 +2,8 @@ import React from "react";
 import {useId} from "react";
 
 function InputBox({
+
+  //this are the prpos 
   label,
   amount,
   onAmountChange,
