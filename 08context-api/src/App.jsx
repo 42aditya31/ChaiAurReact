@@ -1,10 +1,18 @@
-import React from 'react'
 
-const App = () => {
+import './App.css'
+import Login from './components/Login'
+import Profile from './components/Profile'
+import UserContextProvider from './context/UserContextProvider'
+
+function App() {
+  
+
   return (
-    <div>
-      <h1  className='text-9xl font-extrabold text-pink-400'> hello ji</h1>
-    </div>
+    <UserContextProvider>
+      <h1>Helloj- iii</h1>
+      <Login />
+      <Profile />
+    </UserContextProvider>
   )
 }
 
